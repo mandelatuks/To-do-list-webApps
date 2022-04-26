@@ -23,7 +23,7 @@ To get a local copy up and running follow these simple example steps.
 
 ### Setup
 ~~~ 
-git clone git@github.com:mandelatuks/awesome-book-2-es6.git
+git clone git@github.com:mandelatuks/To-do-list-webApps.git
 cd To-do-list-webApps
 ~~~
 Open a index.html file with your code editor of your choice and/or a browser of your choice.
