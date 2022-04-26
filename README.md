@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# To do list webApp
 
 > One paragraph statement about the project.
 
@@ -10,50 +10,39 @@ Additional description about the project and its features.
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
-
-## Live Demo
-
-[Live Demo Link](https://livedemo.com)
-
+- HTML
+- CSS
+- JavaScript
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+** If you want a copy of this file go to the GitHub repository and download it or clone it
 
 
 To get a local copy up and running follow these simple example steps.
 
-### Prerequisites
-
 ### Setup
+~~~ 
+git clone git@github.com:mandelatuks/awesome-book-2-es6.git
+cd To-do-list-webApps
+~~~
+Open a index.html file with your code editor of your choice and/or a browser of your choice.
+~~~
+Open the project using a live saver extension that can be found into your code editor or by using your browser
+~~~
 
-### Install
+### Environment Prerequisites
+Web Browser
 
-### Usage
-
-### Run tests
-
-### Deployment
-
-
+Code editor: Vscode or any code editor of your choice
 
 ## Authors
 
-👤 **Author1**
+👤 **Mandela Tumukunde**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@mandelatuks](https://github.com/mandelatuks)
+- Twitter: [@MandelaTm1](https://twitter.com/MandelaTm1)
+- LinkedIn: [@Mandela Tumukunde](https://www.linkedin.com/in/mandela-tumukunde-794755194/)
 
 ## 🤝 Contributing
 
