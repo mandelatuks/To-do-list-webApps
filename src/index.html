@@ -4,11 +4,61 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wbpack Exercise</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <title>To-do-list-App</title>
   </head>
 
   <body>
-    <h1>Hello webpack!</h1>
+    <main>
+      <section class="todolist">
+        <header class="todo">
+          <h2>To Do List</h2>
+          <span class="material-icons new-item">
+            autorenew
+          </span>
+        </header>
+        <section class="input-field">
+          <div>
+            <form action="#" id="form-area">
+              <input type="text" id="add-item" placeholder="Add your list here">
+              <button type="submit">
+                <span class="material-icons return">
+                  keyboard_return
+                </span>
+              </button>
+            </form>
+          </div>
+          <div>
+            <ul class="items">
+              <li class="list-items">
+                <span class="material-icons check-box">
+                  check_box_outline_blank
+                </span>
+                <p> Road run</p>
+                <span class="material-icons more-bars">
+                  more_vert
+                </span>
+              </li>
+              <li class="list-items">
+                <span class="material-icons check-box">
+                  check_box_outline_blank
+                </span>
+                <p> Road run</p>
+                <span class="material-icons more-bars">
+                  more_vert
+                </span>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <footer>
+          <div class="complete-items">
+            Clear all completed
+          </div>
+        </footer>
+      </section>
+    </main>
+
   </body>
 
 </html>
