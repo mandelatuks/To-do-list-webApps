@@ -11,13 +11,13 @@ document.querySelector('#form-area"').addEventListener('submit', (e) => {
   e.target.reset();
 });
 
-// document.querySelector('.complete-items').addEventListener('click', () => {
-//   todolist.clearCompletedActivity();
-// });
+document.querySelector('.complete-items').addEventListener('click', () => {
+  todolist.clearCompletedActivity();
+});
 
-// document.querySelector('#delete-all').addEventListener('click', () => {
-//   todolist.clearAll();
-// });
+document.querySelector('#delete-all').addEventListener('click', () => {
+  todolist.clearAll();
+});
 
 // const toDoList = [
 //   {
