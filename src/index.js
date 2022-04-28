@@ -30,7 +30,7 @@ listSection.innerHTML = '';
 for (let i = 0; i < toDoList.length; i += 1) {
   const work = toDoList[i];
   let workItem = `
-    <li class="d-flex s-between list-items">`;
+    <li class=" list-items">`;
   if (work.completed) {
     workItem += `<span class="material-icons done" onclick="updateStatus(${work.index}, 'pending')">
           done
@@ -57,3 +57,9 @@ for (let i = 0; i < toDoList.length; i += 1) {
    </li>`;
   listSection.innerHTML += workItem;
 }
+
+toDoList.sort((a, b) => {
+  if (a.index < b.index) return -1;
+  if (a.index > b.index) return 1;
+  return 0;
+});

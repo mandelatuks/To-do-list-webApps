@@ -100,6 +100,7 @@ p {
 .check-box {
   font-size: medium;
   color: #9797a5;
+  cursor: pointer;
 }
 
 button {
@@ -128,9 +129,13 @@ button {
 }
 
 .done {
-  color: rgb(46, 138, 230);
+  color: rgb(25, 185, 65);
 }
-
+.completed {
+  text-decoration: line-through;
+  color: #9797a5;
+  font-size: large;
+}
 .more-bars {
   padding-right: 7px;
   color: #9797a5;
