@@ -1,4 +1,4 @@
-import _ from 'lodash';
+// import _ from 'lodash';
 import './style.css';
 
 const toDoList = [
@@ -27,18 +27,33 @@ const toDoList = [
 
 const listSection = document.querySelector('.items');
 listSection.innerHTML = '';
-for (let i = 0; i < toDoList.length; i + 1) {
+for (let i = 0; i < toDoList.length; i += 1) {
   const work = toDoList[i];
-  let workItem = ` <li class="list-items">`;
-  if(work.completed){
-               ` <span class="material-icons check-box">
-                  check_box_outline_blank
+  let workItem = `
+    <li class="d-flex s-between list-items">`;
+  if (work.completed) {
+    workItem += `<span class="material-icons done" onclick="updateStatus(${work.index}, 'pending')">
+          done
+        </span>
+        <p contenteditable="true" class="completed">
+          ${work.description}
+        </p>
+        `;
+  } else {
+    workItem += `<span class="material-icons check-box" onClick ="UpdateStatus(${work.index}, 'completed')">
+                check_box_outline_blank
                 </span>
-                <p> Road run</p>
-               `; 
+                <p  contenteditable="true">
+                ${work.description}
+                </P>`;
   }
-                <span class="material-icons more-bars">
-                  more_vert
-                </span>
-              </li>`
+  workItem += `
+  <span class="material-icons more-bars">
+       more_vert
+    </span>
+   <!-- <span class="material-icons" onclick="deleteTask(${work.index})">
+        delete
+      </span> -->
+   </li>`;
+  listSection.innerHTML += workItem;
 }

@@ -127,6 +127,10 @@ button {
   border-bottom: 1px solid rgba(0, 0, 0, 0.08);
 }
 
+.done {
+  color: rgb(46, 138, 230);
+}
+
 .more-bars {
   padding-right: 7px;
   color: #9797a5;
