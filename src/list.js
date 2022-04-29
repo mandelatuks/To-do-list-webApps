@@ -102,6 +102,14 @@ class List {
   }
 
   activateActions() {
+    const updateStatusBtns = document.querySelectorAll('.update-status');
+    if (updateStatusBtns !== null) {
+      updateStatusBtns.forEach((item) => {
+        item.addEventListener('click', () => {
+          this.updateActivityStatus(item.getAttribute('data'));
+        });
+      });
+    }
     const deleteBtns = document.querySelectorAll('.delete-work');
     if (deleteBtns) {
       deleteBtns.forEach((work) => {
