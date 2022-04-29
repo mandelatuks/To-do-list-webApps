@@ -4,7 +4,8 @@
 
 > This is a web app for to do list 
 
-![screenshot](./app_screenshot.png)
+![image](https://user-images.githubusercontent.com/38649067/165916273-f82110be-2538-4c49-9b7d-d7caed568f46.png)
+
 
 Additional description about the project and its features.
 
