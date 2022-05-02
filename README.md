@@ -16,7 +16,7 @@ Additional description about the project and its features.
 - JavaScript
 
 ## live Demo here 
-[live demo](https://github.com/mandelatuks/To-do-list-webApps)
+[live demo]( https://mandelatuks.github.io/To-do-list-webApps/)
 
 ## Getting Started
 
