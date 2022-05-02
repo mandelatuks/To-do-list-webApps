@@ -1,6 +1,5 @@
 {
   "name": "to-do-list-webapps",
-  "home":"https://mandelatuks.github.io/To-do-list-webApps/",
   "version": "1.0.0",
   "description": "![](https://img.shields.io/badge/Microverse-blueviolet)",
   "private": true,
@@ -20,7 +19,7 @@
   "bugs": {
     "url": "https://github.com/mandelatuks/To-do-list-webApps/issues"
   },
-  "homepage": "https://github.com/mandelatuks/To-do-list-webApps#readme",
+  "homepage": "https://mandelatuks.github.io/To-do-list-webApps",
   "devDependencies": {
     "css-loader": "^6.7.1",
     "html-loader": "^3.1.0",
